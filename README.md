@@ -55,4 +55,26 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![ELK Running](https://github.com/rfchapie/cybersecurity-project1/Images/ELK_Running.png)
+<img src="https://github.com/rfchapie/Cybersecurity-Project1/blob/main/Images/ELK_Running.png">
+
+#### Target Machines & Beats
+
+This ELK server is configured to monitor the following machines:
+
+| Name     | IP Address |
+|----------|------------|
+| web-1    | 10.0.0.5   |
+| web-2    | 10.0.0.6   |
+| web-3    | 10.0.0.7   |
+
+
+We have installed the following Beats on these machines:
+
+- Filebeat
+- Metricbeat
+
+These Beats allow us to collect the following information from each machine:
+
+Filebeat collects and parses syslog messages like sudo commands, ssh logins and presents it in a dashboard format
+
+Metricbeat collects metrics like CPU utilization, memory usage and network IO and presents it in a dashboard format.
