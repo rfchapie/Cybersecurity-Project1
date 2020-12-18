@@ -76,5 +76,6 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 
 Filebeat collects and parses syslog messages like sudo commands, ssh logins and presents it in a dashboard format
-
 Metricbeat collects metrics like CPU utilization, memory usage and network IO and presents it in a dashboard format.
+
+
