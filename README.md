@@ -135,7 +135,7 @@ On the control node cd /etc/ansible/roles
 ansible-playbook elkplaybook.yml
 ansible-playbook filebeat-playbook.yml
 ansible-playbook metricbeat-playbook.yml
-navigate to http://elk-public-IP address :5601/app/kibana to check that the installation worked as expected.
+navigate to http://104.211.39.66:5601/app/kibana to check that the installation worked as expected.
 
 Answer the following questions to fill in the blanks:
 
