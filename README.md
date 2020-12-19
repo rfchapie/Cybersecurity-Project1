@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [YML Deployment Files](https://github.com/rfchapie/Cybersecurity-Project1/tree/main/Ansible)
 
-[Screen Shot Images](
+[Screen Shot Images](https://github.com/rfchapie/Cybersecurity-Project1/blob/main/Images/ELK_stack_screenshots.pdf)
 
 This document contains the following details:
 - Description of the Topology
