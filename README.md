@@ -29,9 +29,9 @@ What aspect of security do load balancers protect? Availability
 What is the advantage of a jump box? Acts as a gateway to other machines on the virtual network.  It allows strong security controls on a single machine instead of every individual VM.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system files.
-What does Filebeat watch for?_syslog entries, like sudo access and new user logins. 
+What does Filebeat watch for? syslog entries, like sudo access and new user logins. 
 
-What does Metricbeat record?_Machine metrics from monitored systems, like cpu usage and network io and sends it to your desired output.
+What does Metricbeat record? Machine metrics from monitored systems, like cpu usage and network io and sends it to your desired output.
 
 The configuration details of each machine may be found below.
 
