@@ -1,3 +1,0 @@
----
-- import_playbook: filebeat-playbook.yml
-- import_playbook: metricbeat-playbook.yml
