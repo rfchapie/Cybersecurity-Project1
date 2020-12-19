@@ -3,6 +3,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
+<img src="https://github.com/rfchapie/Cybersecurity-Project1/blob/main/Images/ELK_Deployment.png">
+
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
 [YML Deployment Files](https://github.com/rfchapie/Cybersecurity-Project1/tree/main/Ansible)
@@ -71,16 +73,16 @@ What is the main advantage of automating configuration with Ansible? Reduces hum
 
 The playbook implements the following tasks:
 
-•	Install Docker.io
-•	Install python
-•	Install Docker module
-•	Increase virtual memory to 262144
-•	Download and launch the docker elk container
-•	Enable the docker service
+- Install Docker.io
+- Install python
+- Install Docker module
+- Increase virtual memory to 262144
+- Download and launch the docker elk container
+- Enable the docker service
 
 
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `sudo docker ps` after successfully configuring the ELK instance.
 
 <img src="https://github.com/rfchapie/Cybersecurity-Project1/blob/main/Images/ELK_Running.png">
 
@@ -135,11 +137,11 @@ ansible-playbook filebeat-playbook.yml
 ansible-playbook metricbeat-playbook.yml
 navigate to http://elk-public-IP address :5601/app/kibana to check that the installation worked as expected.
 
-Answer the following questions to fill in the blanks:_
+Answer the following questions to fill in the blanks:
 
 Which file is the playbook? elkplaybook.yml
 
-Where do you copy it?_/etc/ansible
+Where do you copy it? /etc/ansible
 
 
 Which file do you update to make Ansible run the playbook on a specific machine? hosts
