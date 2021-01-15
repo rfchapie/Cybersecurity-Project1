@@ -1,5 +1,7 @@
 # Cybersecurity-Project1
-## Automated ELK Stack Deployment
+Steps necessary to deploy ELK stack server, three webservers and a jump box server.
+
+### Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network below.
 
@@ -50,10 +52,6 @@ The playbook implements the following tasks:
 - Increase virtual memory to 262144
 - Download and launch the docker elk container
 - Enable the docker service
-
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
-<img src="https://github.com/rfchapie/Cybersecurity-Project1/blob/main/Images/ELK_Running.png">
 
 #### Target Machines & Beats
 
